@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+
+
+    //1 tamamlandi
+
+    let a = 1
+    let b = 2
+    let c = 3
+
+    console.log(a*a + b*b + c*c)
+
+ 
+    //2 tamamlandi
+
+    console.log((a+b+c)/3)
+
+    //3 tamamlandi
+
+    for(let i = 0; i < 100; i++){
+        console.log(i)
+    }
+    
+    //4 tamamlandi
+    for(let i = 0; i < 100; i++) {
+        if(i%2==0){
+            console.log(i)
+        }
+    }
+    
+
+    //5 tamamlandi
+    
+    nums = []
+
+    for(let i = 1; i < 100; i++){
+        if(i%3==0){
+            nums.push(i)
+        }
+        console.log(nums.length)
+    }
+
+    //6 tamamlandi
+
+    for (let i = 2; i <= 100; i++) {
+    let flag = 0;
+
+    for (let j = 2; j < i; j++) {
+        if (i % j == 0) {
+            flag = 1;
+            break;
+        }
+    }
+
+    if (i > 1 && flag == 0) {
+        console.log(i);
+    }
+    }
+
+    //7 tamamlandi
+    
+    
+
+    for(let i=0; i<=5; i++){
+        for(let j=0; j<=5; j++){
+            document.write("*")
+        }
+        document.write("<br>")
+
+        
+    }
+
+    //8 tamamlandi
+
+    for(let i=0; i<=5; i++){
+        for(let j=5; j>=i; j--){
+            document.write("*")
+        }
+        document.write("<br>")
+
+        
+    }
+
+
+
+
+    //9
+
+
+
+
+
+
+    //10 = tamamlandi
+
+    numbers = [56, 456, 5646, 13489, 897435, 5648135, 54841325, 354615214894]
+
+    numbers.forEach(number => {
+        console.log(number.toString().length)
+
+    });
+
+
+
+
+    //11 tamamlandi - ?
+    
+    const massiv = ["dasdasd",564 , "dsadas", "dasdafew"]
+
+    const result = massiv.find(Number)
+
+    function findNumber(e) {
+        return e === Number
+    }
+
+    console.log(result)
+
+    
+
+
+
+    //12
+
+
+
+
+    //13
+
+
+
+
+    //14
+
+
+
+
+
+    //15
+
+
+
+
+    </script>
+</body>
+</html>
